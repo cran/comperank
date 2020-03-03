@@ -89,12 +89,12 @@ iterative algorithm in the next step. If all values are strictly positive
 then this step is omitted. In other case small value is computed as the
 smallest non-zero Head-to-Head value multiplied by \code{eps}.
 \item Perform iterative fixed point search with the following recurrent formula:
-\code{def_{k+1} = t(A) \%*\% inv(A \%*\% inv(def_{k}))} where \code{def_{k}}
+\code{def_{k+1} = t(A) \%*\% inv(A \%*\% inv(def_{k}))} where \verb{def_\{k\}}
 is a vector of defensive ratings at iteration \code{k}, \code{A} is a perturbed
 Head-to-Head matrix, \code{inv(x) = 1 / x}. Iterative search stops if at least one
 of two conditions is met:
 \itemize{
-\item \code{sum(abs(def_{k+1} / def_{k} - 1)) < tol}.
+\item \verb{sum(abs(def_\{k+1\} / def_\{k\} - 1)) < tol}.
 \item Number of iterations exceeds maximum number of iterations
 \code{max_iterations}.
 }

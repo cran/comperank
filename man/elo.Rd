@@ -5,7 +5,6 @@
 \alias{rate_elo}
 \alias{rank_elo}
 \alias{add_elo_ratings}
-\alias{elo}
 \title{Elo method}
 \usage{
 rate_elo(cr_data, K = 30, ksi = 400, initial_ratings = 0)
