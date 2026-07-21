@@ -6,7 +6,7 @@
 #' creating valid competition results and Head-to-Head expressions with
 #' `comperes` is needed in order to efficiently use `comperank`.
 #'
-#' `comperank` leverages the [tidyverse](https://www.tidyverse.org/) ecosystem
+#' `comperank` leverages the [tidyverse](https://tidyverse.org/) ecosystem
 #' of R packages. Among other things, it means that the main output format is
 #' [tibble][tibble::tibble].
 #'

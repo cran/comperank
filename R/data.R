@@ -2,7 +2,7 @@
 #'
 #' Data set describing snooker events in seasons 2016/2017 and 2017/2018.
 #'
-#' @details Data is taken from snooker.org (http://www.snooker.org/) API.
+#' @details Data is taken from snooker.org (https://www.snooker.org/) API.
 #'
 #' This data set has information about events that have all following qualities:
 #' - It has "Invitational", "Qualifying", or "Ranking" type.
@@ -35,7 +35,7 @@
 #'
 #' Data set describing snooker players in seasons 2016/2017 and 2017/2018.
 #'
-#' @details Data is taken from snooker.org (http://www.snooker.org/) API.
+#' @details Data is taken from snooker.org (https://www.snooker.org/) API.
 #'
 #' Data is present only for players who played at least one game in tracked
 #' [snooker events][snooker_events] in seasons 2016/2017 and 2017/2018.
@@ -59,7 +59,7 @@
 #'
 #' Data set describing snooker matches in seasons 2016/2017 and 2017/2018.
 #'
-#' @details Data is taken from snooker.org (http://www.snooker.org/) API.
+#' @details Data is taken from snooker.org (https://www.snooker.org/) API.
 #'
 #' Matches are present only for tracked [snooker events][snooker_events].
 #'

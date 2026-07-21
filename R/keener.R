@@ -28,7 +28,7 @@
 #' subtracted (in case some Head-to-Head value is strictly negative).
 #'
 #' 1. Update raw Head-to-Head values (denoted as S) with the pair-normalization:
-#' a_{ij} = (S_ij + 1) / (S_ij + S_ji + 2). This step should make comparing
+#' a_ij = (S_ij + 1) / (S_ij + S_ji + 2). This step should make comparing
 #' different players more reasonable.
 #'
 #' 1. Skew Head-to-Head values with applying `skew_fun` to them. `skew_fun`

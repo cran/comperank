@@ -24,7 +24,7 @@ __Rating__ is a list (in the ordinary sense) of numerical values, one for each p
 
 __Ranking__ is a rank-ordered list (in the ordinary sense) of players: rank 1 indicates player with best performance.
 
-`comperank` leverages the [tidyverse](https://www.tidyverse.org/) ecosystem of R packages. Among other things, it means that the main output format is [tibble](http://tibble.tidyverse.org/).
+`comperank` leverages the [tidyverse](https://tidyverse.org/) ecosystem of R packages. Among other things, it means that the main output format is [tibble](https://tibble.tidyverse.org/).
 
 ## Overview
 
@@ -116,9 +116,9 @@ All algorithms with variable Head-to-Head structure depend on user supplying cus
 Computation of Head-to-Head values is done with functionality of `comperes` package. Programmatically it is implemented as summary of players' matchups - mini-"games" in `widecr` format between pair of players. In other words, for every directed pair (order matters) of players (including "pair" of player with oneself):
 
 - Data frame of matchups is computed in wide format, i.e. with columns `game`, `player1`, `score1`, `player2`, `score2`.
-- This data frame is summarised with Head-to-Head expression supplied in [dplyr](http://dplyr.tidyverse.org/) fashion.
+- This data frame is summarised with Head-to-Head expression supplied in [dplyr](https://dplyr.tidyverse.org/) fashion.
 
-For more robust usage `comperes` provides `h2h_funs` - a list of the most common Head-to-Head [expressions](http://rlang.r-lib.org/reference/quotation.html) which are designed to be used with [rlang](http://rlang.r-lib.org/)'s [unquoting](http://rlang.r-lib.org/reference/quasiquotation.html) mechanism. All `comperank` functions are designed to be used smoothly with it.
+For more robust usage `comperes` provides `h2h_funs` - a list of the most common Head-to-Head [expressions](https://rlang.r-lib.org/reference/quotation.html) which are designed to be used with [rlang](https://rlang.r-lib.org/)'s [unquoting](https://rlang.r-lib.org/reference/quasiquotation.html) mechanism. All `comperank` functions are designed to be used smoothly with it.
 
 Examples of computing Head-to-Head values for more clarity:
 

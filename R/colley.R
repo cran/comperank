@@ -44,7 +44,7 @@
 #'
 #' @references Wesley N. Colley (2002) *Colley’s Bias Free College Football
 #'   Ranking Method: The Colley Matrix Explained*. Available online at
-#'   <http://www.colleyrankings.com>
+#'   <https://www.colleyrankings.com/>
 #'
 #' @examples
 #' rate_colley(ncaa2005)

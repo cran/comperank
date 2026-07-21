@@ -13,8 +13,8 @@ rate_keener(cr_data, ..., fill = 0, force_nonneg_h2h = TRUE,
 
 rank_keener(cr_data, ..., fill = 0, force_nonneg_h2h = TRUE,
   skew_fun = skew_keener, normalize_fun = normalize_keener, eps = 0.001,
-  keep_rating = FALSE, ties = c("average", "first", "last", "random", "max",
-  "min"), round_digits = 7)
+  keep_rating = FALSE, ties = c("average", "first", "last", "random",
+  "max", "min"), round_digits = 7)
 
 skew_keener(x)
 
@@ -79,7 +79,7 @@ players of interest (see Players). Ensure that there are no \code{NA}s by using
 \code{fill} argument. If \code{force_nonneg_h2h} is \code{TRUE} then the minimum value is
 subtracted (in case some Head-to-Head value is strictly negative).
 \item Update raw Head-to-Head values (denoted as S) with the pair-normalization:
-a_{ij} = (S_ij + 1) / (S_ij + S_ji + 2). This step should make comparing
+a_ij = (S_ij + 1) / (S_ij + S_ji + 2). This step should make comparing
 different players more reasonable.
 \item Skew Head-to-Head values with applying \code{skew_fun} to them. \code{skew_fun}
 should take numeric vector as only argument. It should return skewed vector.

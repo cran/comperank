@@ -81,5 +81,5 @@ rank_colley(ncaa2005, keep_rating = TRUE)
 \references{
 Wesley N. Colley (2002) \emph{Colley’s Bias Free College Football
 Ranking Method: The Colley Matrix Explained}. Available online at
-\url{http://www.colleyrankings.com}
+\url{https://www.colleyrankings.com/}
 }

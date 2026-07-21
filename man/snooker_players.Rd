@@ -4,7 +4,8 @@
 \name{snooker_players}
 \alias{snooker_players}
 \title{Snooker players}
-\format{A \link[tibble:tibble]{tibble} with one row per player and the following
+\format{
+A \link[tibble:tibble]{tibble} with one row per player and the following
 columns:
 \itemize{
 \item \strong{id} \verb{<int>} : Player identifier in snooker.org database (used in
@@ -16,7 +17,8 @@ columns:
 \item \strong{born} \verb{<dttm>} : Player date of birth.
 \item \strong{status} \verb{<chr>} : Player status in season 2017/2018 ("pro" for
 professional, "ama" for amateur).
-}}
+}
+}
 \usage{
 snooker_players
 }
@@ -24,7 +26,7 @@ snooker_players
 Data set describing snooker players in seasons 2016/2017 and 2017/2018.
 }
 \details{
-Data is taken from snooker.org (http://www.snooker.org/) API.
+Data is taken from snooker.org (https://www.snooker.org/) API.
 
 Data is present only for players who played at least one game in tracked
 \link[=snooker_events]{snooker events} in seasons 2016/2017 and 2017/2018.

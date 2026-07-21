@@ -13,7 +13,7 @@ creating valid competition results and Head-to-Head expressions with
 \code{comperes} is needed in order to efficiently use \code{comperank}.
 }
 \details{
-\code{comperank} leverages the \href{https://www.tidyverse.org/}{tidyverse} ecosystem
+\code{comperank} leverages the \href{https://tidyverse.org/}{tidyverse} ecosystem
 of R packages. Among other things, it means that the main output format is
 \link[tibble:tibble]{tibble}.
 
@@ -56,6 +56,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Evgeni Chasnovski \email{evgeni.chasnovski@gmail.com}
+\strong{Maintainer}: Evgeni Chasnovski \email{evgeni.chasnovski@gmail.com} (\href{https://orcid.org/0000-0002-1617-4019}{ORCID})
+
+Authors:
+\itemize{
+  \item Evgeni Chasnovski \email{evgeni.chasnovski@gmail.com} (\href{https://orcid.org/0000-0002-1617-4019}{ORCID})
+}
 
 }
